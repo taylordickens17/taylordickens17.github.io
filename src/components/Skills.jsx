@@ -6,7 +6,7 @@ import {
 const Skills = () => {
     return (
         <Container>
-            <h1>Skills</h1>
+            <h1>Skills hello</h1>
             <Row>
                 <Col>
                     <hr style={{ width: '80%' }} />
