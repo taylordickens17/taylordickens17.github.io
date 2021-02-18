@@ -1,15 +1,105 @@
+/*Meant for project section in on the main page*/
 .projects {
     height: 100vh;
     margin: 0 !important;
-  padding: 0 !important;
-  max-width: 100% !important;
     background-color: #0C0E29;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
-.projects-row {
-  margin-left: auto;
-  margin-right: auto;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
+.projects-title {
+  font-family: 'NTR', sans-serif;
+  text-transform: uppercase;
 }
+
+.projects-col {
+  margin-top: 2em;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.project-card-space {
+  background: linear-gradient(180deg, #0C0E29 28.66%, #161B70 100%);
+  background-repeat: no-repeat;
+  border: none !important;
+  padding: 0 20px 30px 20px;
+}
+
+.project-card-space:hover {
+  box-shadow: 0px 10px 10px rgba(167, 189, 221, 0.25);
+  transition: 0.5s;
+}
+
+.project-card-pets {
+  background: linear-gradient(180deg, #0C0E29 28.66%, #161B70 100%);
+  background-repeat: no-repeat;
+  border: none !important;
+  padding: 0 50px 10px 50px;
+}
+
+.project-card-pets:hover {
+  box-shadow: 0px 10px 10px rgba(167, 189, 221, 0.25);
+  transition: 0.5s;
+}
+
+.project-card-book {
+  background: linear-gradient(180deg, #0C0E29 28.66%, #161B70 100%);
+  background-repeat: no-repeat;
+  border: none !important;
+  padding: 0 40px 10px 40px;
+}
+
+.project-card-book:hover {
+  box-shadow: 0px 10px 10px rgba(167, 189, 221, 0.25);
+  transition: 0.5s;
+}
+
+.project-icon-pet {
+  margin-bottom: .5em;
+  margin-left: 5px;
+}
+
+.project-icon-space {
+  margin-bottom: .5em;
+  margin-left: 45px;
+}
+
+.project-icon-book {
+  margin-bottom: .5em;
+  margin-left: 20px;
+}
+
+.portfolio-bttn {
+  background-color: transparent !important;
+  border: 1px solid transparent  !important;
+}
+
+.portfolio-bttn:hover {
+  background-color: transparent !important;
+  border: 1px solid transparent  !important;
+  color:  #A7BDDD !important;
+}
+
+/* Goes to the individual project pages*/
+.project-row {
+  border-right: 2px solid white;
+  padding-right: 0;
+}
+
+.carousel {
+  margin-left: 8em;
+}
+
+.see-live-bttn {
+  color: white;
+}
+
+.see-live-bttn:hover {
+  color: #A7BDDD;
+  text-decoration: none;
+}
+
+

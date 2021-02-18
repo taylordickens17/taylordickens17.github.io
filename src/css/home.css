@@ -60,13 +60,22 @@
 }
 
 .home-linkedIn-bttn:hover {
-    color: white;
+    color: #A7BDDD;
 }
 
 .home-gitHub-bttn {
     color: white;
+    margin-right: 10px;
 }
 
 .home-gitHub-bttn:hover {
+    color: #A7BDDD;
+}
+
+.home-email-bttn {
     color: white;
+}
+
+.home-email-bttn:hover {
+    color: #A7BDDD;
 }

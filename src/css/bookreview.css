@@ -1,0 +1,11 @@
+.bookreview-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-title {
+    font-family: 'NTR', sans-serif;
+    text-transform: uppercase;
+}
